@@ -2134,6 +2134,9 @@
   (gr_text "+" (at -1.65 1.35) (layer "B.SilkS") (tstamp 8c3287ff-0434-49a2-98ca-af5b8d8ff198)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
+  (gr_text "Matt Dion\nLightup note detector\nRev2 Feb 09 2023" (at -8.75 -7.5 270) (layer "F.SilkS") (tstamp 4fc3183f-297c-42b7-b3bd-25a9ea18c844)
+    (effects (font (size 0.6 0.6) (thickness 0.1)) (justify left))
+  )
 
   (segment (start 9.017 0.127) (end 9.017 -0.576652) (width 0.1524) (layer "F.Cu") (net 1) (tstamp 17a01120-cf6f-496a-9d28-37083b8f19ef))
   (segment (start 3.75 -6) (end 3.7 -5.95) (width 0.1524) (layer "F.Cu") (net 1) (tstamp 18906d41-202e-4ddf-9bfd-9c64feead654))
