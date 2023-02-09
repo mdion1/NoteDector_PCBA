@@ -1,4 +1,4 @@
-19821612906027530
+19823343260536778
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -83712,6 +83712,13 @@ transformer flyback
 0
 10
 10
+User
+ElectretCondenserMic_SMT_MO063602-1
+Electret Condenser Microphone, DB Unlimited MO063602-1, 6mm x 2.7mm, omnidirectional
+Electret Condenser Microphone 6mm
+0
+2
+2
 User
 MEMS_mic_VS1010
 

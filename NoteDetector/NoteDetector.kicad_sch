@@ -1717,7 +1717,7 @@
     (property "Value" "Conn_01x05" (id 1) (at 20.32 46.9899 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x03_P1.27mm_Vertical" (id 2) (at 22.86 45.72 0)
+    (property "Footprint" "" (id 2) (at 22.86 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 22.86 45.72 0)
@@ -2999,7 +2999,7 @@
       (reference "D1") (unit 1) (value "LED_ABGR") (footprint "User:PLCC-4")
     )
     (path "/0dfca3c8-1ecc-44e1-81b5-40a2d43c452a"
-      (reference "J1") (unit 1) (value "Conn_01x05") (footprint "Connector_PinHeader_1.27mm:PinHeader_2x03_P1.27mm_Vertical")
+      (reference "J1") (unit 1) (value "Conn_01x05") (footprint "")
     )
     (path "/e72eb35d-61d7-4c28-a823-6375b6639f62"
       (reference "J2") (unit 1) (value "Conn_01x01") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
