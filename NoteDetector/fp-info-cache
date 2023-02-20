@@ -1,4 +1,4 @@
-19823343260536778
+19825020012434610
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -83712,6 +83712,13 @@ transformer flyback
 0
 10
 10
+User
+BH-25C-1
+BH-25C-1 20mm coin cell holder
+Through hole coin cell holder CR2032 2032 battery
+0
+2
+2
 User
 ElectretCondenserMic_SMT_MO063602-1
 Electret Condenser Microphone, DB Unlimited MO063602-1, 6mm x 2.7mm, omnidirectional
