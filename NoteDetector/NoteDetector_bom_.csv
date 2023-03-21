@@ -1,0 +1,36 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,Part Number,Part Number Alt 1,Val1,Val2
+1,Single-cell battery,Battery_Cell,BT1,CR2032Holder,BH-25C-1,1,~,BH-25C-1,,,
+2,Unpolarized capacitor,C,C3 C4,1n,C_0603_1608Metric,2,~,GRM1885C1H102JA01D,,,
+3,Unpolarized capacitor,C,C6 C12,10n,C_0603_1608Metric,2,~,0603B103J500CT,,,
+4,Unpolarized capacitor,C,C11,100n,C_0603_1608Metric,1,~,CL10B104JB8NNNC,,,
+5,Unpolarized capacitor,C,C1 C2 C13 C14 C15,1u,C_0603_1608Metric,5,~,CL10A105KO8NNND,,,
+6,Unpolarized capacitor,C,C7 C8,C_fb,C_0603_1608Metric,2,~,,06035A220JAT2A,22p,10p
+7,Unpolarized capacitor,C,C5,C_in,C_0603_1608Metric,1,~,,CL10B104JB8NNNC,10n,1.5n
+8,"RGB LED, anode/blue/green/red",LED_ABGR,D1,LED_ABGR,PLCC-4,1,~,CLMVC-FKA-CL1D1L71BB7C3C3,,,
+9,Condenser microphone,Microphone_Condenser,MK1,Microphone_Condenser,ElectretCondenserMic_SMT_MO063602-1,1,~,MO063602-1,,,
+10,"N-MOSFET transistor, gate/source/drain",Q_NMOS_GSD,Q1 Q2 Q3 Q4,Q_NMOS_DGS,SOT-23,4,~,"T2N7002AK,LM",,,
+11,Resistor,R,R1 R12 R17 R21 R22,100,R_0603_1608Metric,5,~,CRG0603F100R,,,
+12,Resistor,R,R2 R6 R16 R18,1k,R_0603_1608Metric,4,~,CRCW06031K00FKEAC,,,
+13,Resistor,R,R19,1.4k,R_0603_1608Metric,1,~,CR0603-FX-1401ELF,,,
+14,Resistor,R,R20,1.5k,R_0603_1608Metric,1,~,RC0603JR-131K5L,,,
+15,Resistor,R,R3,10k,R_0603_1608Metric,1,~,ERJ-3GEYJ103V,,,
+16,Resistor,R,R11 R15,270k,R_0603_1608Metric,2,~,RC0603FR-07270KL,,,
+17,Resistor,R,R4 R5 R7 R8 R13 R14,10M,R_0603_1608Metric,6,~,WR06W1005FTL,,,
+18,"10 MHz, 850 µA Op Amps, SOT-23-5",MCP6L91T-EOT,U1,OPAMP,SOT-23-5,1,https://ww1.microchip.com/downloads/en/DeviceDoc/MCP6061_DS22189B.pdf,MCP6061T-E/OT or MCP6231T-E/OT,,,
+19,,PIC18F06Q41,U2,PIC18F06,TSSOP-14_4.4x5mm_P0.65mm,1,,PIC18F06Q41-E/ST or PIC18F06Q40-E/ST,,,
+
+
+
+
+
+Component Groups:,19
+Component Count:,42
+Fitted Components:,42
+Number of PCBs:,1
+Total components:,42
+Schematic Version:,
+Schematic Date:,
+PCB Variant:,default
+BoM Date:,3/20/2023 5:24:31 PM
+Schematic Source:,NoteDetector.kicad_sch
+KiCad Version:,Eeschema (6.0.1)

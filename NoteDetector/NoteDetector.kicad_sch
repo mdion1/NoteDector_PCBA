@@ -2735,7 +2735,7 @@
     (property "PN" "" (id 4) (at 57.15 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Part Number" "" (id 5) (at 57.15 114.3 0)
+    (property "Part Number" "ERJ-3GEYJ103V" (id 5) (at 57.15 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid bdfceba7-45e0-4049-a034-4968c2baa15a))

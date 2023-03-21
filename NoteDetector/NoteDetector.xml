@@ -1,0 +1,1083 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\Admiral Instruments\source\repos\LightsAndSound\NoteDector_PCBA\NoteDetector\NoteDetector.kicad_sch</source>
+    <date>3/20/2023 5:24:31 PM</date>
+    <tool>Eeschema (6.0.1)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>NoteDetector.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="BT1">
+      <value>CR2032Holder</value>
+      <footprint>User:BH-25C-1</footprint>
+      <fields>
+        <field name="Part Number">BH-25C-1</field>
+      </fields>
+      <libsource lib="Device" part="Battery_Cell" description="Single-cell battery"/>
+      <property name="Part Number" value="BH-25C-1"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="NoteDetector.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7844fa1c-c2e9-46d4-aee9-55128915096f</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Part Number">CL10A105KO8NNND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Alternate" value=""/>
+      <property name="Part Number" value="CL10A105KO8NNND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="NoteDetector.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>af9b5ea2-280a-41cd-8516-afe3aa7e7b04</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Part Number">CL10A105KO8NNND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Alternate" value=""/>
+      <property name="Part Number" value="CL10A105KO8NNND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="NoteDetector.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5000f751-91d9-48da-89ab-c7b598e18f8e</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>1n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Part Number">GRM1885C1H102JA01D</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Alternate" value=""/>
+      <property name="Part Number" value="GRM1885C1H102JA01D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="NoteDetector.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8927b998-6b2b-4fad-8d9c-60878d6c0af4</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>1n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Part Number">GRM1885C1H102JA01D</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Alternate" value=""/>
+      <property name="Part Number" value="GRM1885C1H102JA01D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="NoteDetector.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a24e325d-8cfa-4261-a52d-8691d3249a15</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>C_in</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Part Number Alt 1">CL10B104JB8NNNC</field>
+        <field name="Val1">10n</field>
+        <field name="Val2">1.5n</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Part Number" value=""/>
+      <property name="Val1" value="10n"/>
+      <property name="Val2" value="1.5n"/>
+      <property name="Part Number Alt 1" value="CL10B104JB8NNNC"/>
+      <property name="Part Number Alt 2" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="NoteDetector.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>af05a1af-cacc-4b31-86ff-7a3359c0aafb</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>10n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Part Number">0603B103J500CT</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Part Number" value="0603B103J500CT"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="NoteDetector.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e553ddf9-aab9-4f15-817b-d418042fa2b4</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>C_fb</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Part Number Alt 1">06035A220JAT2A</field>
+        <field name="Val1">22p</field>
+        <field name="Val2">10p</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Alternate" value=""/>
+      <property name="Part Number" value=""/>
+      <property name="Part Number Alt 1" value="06035A220JAT2A"/>
+      <property name="Val1" value="22p"/>
+      <property name="Val2" value="10p"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="NoteDetector.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f4589a73-a36d-4d6f-86cf-7c4cb1ba003a</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>C_fb</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Part Number Alt 1">06035A220JAT2A</field>
+        <field name="Val1">22p</field>
+        <field name="Val2">10p</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Alternate" value=""/>
+      <property name="Part Number" value=""/>
+      <property name="Part Number Alt 1" value="06035A220JAT2A"/>
+      <property name="Val1" value="22p"/>
+      <property name="Val2" value="10p"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="NoteDetector.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>68a8aab7-a610-44db-9552-2c4bb96b6ff7</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Part Number">CL10B104JB8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Part Number" value="CL10B104JB8NNNC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="NoteDetector.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eb828bfa-f37b-4838-a8dd-4fc0d4a13f32</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>10n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Part Number">0603B103J500CT</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Part Number" value="0603B103J500CT"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="NoteDetector.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1b721285-a582-4b96-bf60-0b605af4b7fb</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Part Number">CL10A105KO8NNND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Part Number" value="CL10A105KO8NNND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="NoteDetector.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>44dd72b2-f19f-44ac-b2be-1028ac5770a1</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Part Number">CL10A105KO8NNND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Part Number" value="CL10A105KO8NNND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="NoteDetector.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c440aef8-3d41-42a7-9b39-fd4eabada1c1</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Part Number">CL10A105KO8NNND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Part Number" value="CL10A105KO8NNND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="NoteDetector.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e89e68ee-7699-4320-ad57-c20317ac684a</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>LED_ABGR</value>
+      <footprint>User:PLCC-4</footprint>
+      <fields>
+        <field name="Part Number">CLMVC-FKA-CL1D1L71BB7C3C3</field>
+      </fields>
+      <libsource lib="Device" part="LED_ABGR" description="RGB LED, anode/blue/green/red"/>
+      <property name="PN" value=""/>
+      <property name="Part Number" value="CLMVC-FKA-CL1D1L71BB7C3C3"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="NoteDetector.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>87a00c19-3597-47c0-8e8b-b2ff8d2efea5</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x01</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <fields>
+        <field name="Part Number">none</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Part Number" value="none"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="NoteDetector.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>da7a2247-ec95-477c-9099-1dcf6dbcbb5b</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x01</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <fields>
+        <field name="Part Number">none</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="PN" value=""/>
+      <property name="Part Number" value="none"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="NoteDetector.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e72eb35d-61d7-4c28-a823-6375b6639f62</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x01</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <fields>
+        <field name="Part Number">none</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="PN" value=""/>
+      <property name="Part Number" value="none"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="NoteDetector.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3f0eeec2-bb1f-48b8-ada6-46d624e3d04e</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x01</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <fields>
+        <field name="Part Number">none</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Part Number" value="none"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="NoteDetector.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a8388897-7737-4925-b3c2-1c16ad936691</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_01x01</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <fields>
+        <field name="Part Number">none</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Part Number" value="none"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="NoteDetector.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d9bec634-1b16-439c-a985-65cd482f5936</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>Conn_01x01</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <fields>
+        <field name="Part Number">none</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Part Number" value="none"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="NoteDetector.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>66350bd0-f7fa-476b-9807-83f8d68f96d0</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>Conn_01x01</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <fields>
+        <field name="Part Number">none</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Part Number" value="none"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="NoteDetector.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c3efec42-d126-46aa-a77d-8a34b2a75670</tstamps>
+    </comp>
+    <comp ref="MK1">
+      <value>Microphone_Condenser</value>
+      <footprint>User:ElectretCondenserMic_SMT_MO063602-1</footprint>
+      <fields>
+        <field name="Part Number">MO063602-1</field>
+      </fields>
+      <libsource lib="Device" part="Microphone_Condenser" description="Condenser microphone"/>
+      <property name="Part Number" value="MO063602-1"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="NoteDetector.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>09c28cbd-0785-4239-a3f9-90ffcafa21cd</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>Q_NMOS_DGS</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <fields>
+        <field name="Part Number">T2N7002AK,LM</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <property name="PN" value=""/>
+      <property name="Part Number" value="T2N7002AK,LM"/>
+      <property name="Alternate" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="NoteDetector.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d008d58d-cdc6-40bb-b2de-1d27b53fa5b1</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>Q_NMOS_DGS</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <fields>
+        <field name="Part Number">T2N7002AK,LM</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <property name="PN" value=""/>
+      <property name="Part Number" value="T2N7002AK,LM"/>
+      <property name="Alternate" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="NoteDetector.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fc5e2d59-fdfd-487c-a139-5bdfb50c10f8</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>Q_NMOS_DGS</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <fields>
+        <field name="Part Number">T2N7002AK,LM</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <property name="PN" value=""/>
+      <property name="Part Number" value="T2N7002AK,LM"/>
+      <property name="Alternate" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="NoteDetector.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>34326bd8-bfc9-4ef4-a004-2ca6fd467996</tstamps>
+    </comp>
+    <comp ref="Q4">
+      <value>Q_NMOS_DGS</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <fields>
+        <field name="Part Number">T2N7002AK,LM</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <property name="PN" value=""/>
+      <property name="Part Number" value="T2N7002AK,LM"/>
+      <property name="Alternate" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="NoteDetector.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>42e953d6-e056-47c4-8757-c0aea13c3eb1</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Part Number">CRG0603F100R</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="PN" value=""/>
+      <property name="Part Number" value="CRG0603F100R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="NoteDetector.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6bce7f86-eee2-4bd5-8ac3-4129582583ea</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Part Number">CRCW06031K00FKEAC</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="PN" value=""/>
+      <property name="Part Number" value="CRCW06031K00FKEAC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="NoteDetector.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3af298b3-51d8-457d-b4d2-6866d70091b7</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Part Number">ERJ-3GEYJ103V</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="PN" value=""/>
+      <property name="Part Number" value="ERJ-3GEYJ103V"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="NoteDetector.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d74c2c1e-a8bf-4761-9db2-3f39d0f4d651</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>10M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Part Number">WR06W1005FTL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="PN" value=""/>
+      <property name="Part Number" value="WR06W1005FTL"/>
+      <property name="Alternate" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="NoteDetector.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f1411285-78ff-4e80-8b64-73ba2d4b8bdd</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>10M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Part Number">WR06W1005FTL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="PN" value=""/>
+      <property name="Part Number" value="WR06W1005FTL"/>
+      <property name="Alternate" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="NoteDetector.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7d44328f-da8d-460a-8b9d-8f73b25176fe</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Part Number">CRCW06031K00FKEAC</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="PN" value=""/>
+      <property name="Part Number" value="CRCW06031K00FKEAC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="NoteDetector.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bfe4a10f-f57e-46d7-a674-56b85198e42e</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>10M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Part Number">WR06W1005FTL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="PN" value=""/>
+      <property name="Part Number" value="WR06W1005FTL"/>
+      <property name="Alternate" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="NoteDetector.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>65d5015d-27dd-4e27-85ea-2979314d566b</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>10M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Part Number">WR06W1005FTL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="PN" value=""/>
+      <property name="Part Number" value="WR06W1005FTL"/>
+      <property name="Alternate" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="NoteDetector.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6e6337a2-9eee-424b-821f-7b7bbf5b6dc3</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>270k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Part Number">RC0603FR-07270KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="PN" value=""/>
+      <property name="Alternate" value=""/>
+      <property name="Part Number" value="RC0603FR-07270KL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="NoteDetector.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>55a0bc72-c349-40a8-8b3b-92a8a5261817</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Part Number">CRG0603F100R</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="PN" value=""/>
+      <property name="Part Number" value="CRG0603F100R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="NoteDetector.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a2b9a962-6d97-4b01-b4cd-aaff49f4dfe6</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>10M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Part Number">WR06W1005FTL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="PN" value=""/>
+      <property name="Part Number" value="WR06W1005FTL"/>
+      <property name="Alternate" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="NoteDetector.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>78c44ba8-ab44-48aa-9ac6-060a333181f6</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>10M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Part Number">WR06W1005FTL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="PN" value=""/>
+      <property name="Part Number" value="WR06W1005FTL"/>
+      <property name="Alternate" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="NoteDetector.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>35e8361f-76d8-46fc-91a2-6bc893322a25</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>270k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Part Number">RC0603FR-07270KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="PN" value=""/>
+      <property name="Part Number" value="RC0603FR-07270KL"/>
+      <property name="Alternate" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="NoteDetector.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a7af82bd-d18e-430c-a2aa-d3456269103f</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Part Number">CRCW06031K00FKEAC</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="PN" value=""/>
+      <property name="Part Number" value="CRCW06031K00FKEAC"/>
+      <property name="Alternate" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="NoteDetector.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7208fdb9-534c-46f1-9173-40c3a3d90d74</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Part Number">CRG0603F100R</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="PN" value=""/>
+      <property name="Part Number" value="CRG0603F100R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="NoteDetector.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>66be1624-724e-49bc-b129-2498e7f252d3</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Part Number">CRCW06031K00FKEAC</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Part Number" value="CRCW06031K00FKEAC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="NoteDetector.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b6426b7d-54b8-4a66-86d3-f239ed13caa4</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>1.4k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Part Number">CR0603-FX-1401ELF</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Part Number" value="CR0603-FX-1401ELF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="NoteDetector.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8d4d4e09-254a-4d66-9bb7-53e01c8b57c9</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>1.5k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Part Number">RC0603JR-131K5L</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Part Number" value="RC0603JR-131K5L"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="NoteDetector.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bb388bd7-2b4d-4cab-ace2-0a1bc92b8af5</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Part Number">CRG0603F100R</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="PN" value=""/>
+      <property name="Part Number" value="CRG0603F100R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="NoteDetector.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e79ec48e-e5b9-4fa8-b36d-766c3102ee0d</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Part Number">CRG0603F100R</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="PN" value=""/>
+      <property name="Part Number" value="CRG0603F100R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="NoteDetector.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1d710a7c-aec3-4eeb-b455-bb5fe6fbd798</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>OPAMP</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>https://ww1.microchip.com/downloads/en/DeviceDoc/MCP6061_DS22189B.pdf</datasheet>
+      <fields>
+        <field name="Part Number">MCP6061T-E/OT or MCP6231T-E/OT</field>
+      </fields>
+      <libsource lib="Amplifier_Operational" part="MCP6L91T-EOT" description="10 MHz, 850 µA Op Amps, SOT-23-5"/>
+      <property name="PN" value=""/>
+      <property name="Part Number" value="MCP6061T-E/OT or MCP6231T-E/OT"/>
+      <property name="Alternate" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="NoteDetector.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3bd81ff8-d5c0-46fb-b801-b015559bf83f</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>PIC18F06</value>
+      <footprint>Package_SO:TSSOP-14_4.4x5mm_P0.65mm</footprint>
+      <fields>
+        <field name="Part Number">PIC18F06Q41-E/ST or PIC18F06Q40-E/ST</field>
+      </fields>
+      <libsource lib="user" part="PIC18F06Q41" description=""/>
+      <property name="Part Number" value="PIC18F06Q41-E/ST or PIC18F06Q40-E/ST"/>
+      <property name="Alternate" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="NoteDetector.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>402c0d4b-532a-4d8a-8055-a6b81f64cc4f</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Amplifier_Operational" part="MCP6L91T-EOT">
+      <description>10 MHz, 850 µA Op Amps, SOT-23-5</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/22141b.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP6L91T-EOT</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/22141b.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="output"/>
+        <pin num="2" name="V-" type="power_in"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="-" type="input"/>
+        <pin num="5" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x01">
+      <description>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x01</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Battery_Cell">
+      <description>Single-cell battery</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery_Cell</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED_ABGR">
+      <description>RGB LED, anode/blue/green/red</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_ABGR</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="BK" type="passive"/>
+        <pin num="3" name="GK" type="passive"/>
+        <pin num="4" name="RK" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Microphone_Condenser">
+      <description>Condenser microphone</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">MK</field>
+        <field name="Value">Microphone_Condenser</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="-" type="passive"/>
+        <pin num="2" name="+" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_NMOS_GSD">
+      <description>N-MOSFET transistor, gate/source/drain</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NMOS_GSD</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="user" part="PIC18F06Q41">
+      <footprints>
+        <fp>SPDIP*W7.62mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>PDIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PIC18F06Q41</field>
+        <field name="Footprint">Package_SO:TSSOP-14_4.4x5mm_P0.65mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="RA5" type="bidirectional"/>
+        <pin num="3" name="RA4" type="bidirectional"/>
+        <pin num="4" name="~{MCLR}/VPP/RA3" type="bidirectional"/>
+        <pin num="5" name="RC5" type="bidirectional"/>
+        <pin num="6" name="RC4" type="bidirectional"/>
+        <pin num="7" name="RC3" type="bidirectional"/>
+        <pin num="8" name="RC2" type="bidirectional"/>
+        <pin num="9" name="RC1" type="bidirectional"/>
+        <pin num="10" name="RC0" type="bidirectional"/>
+        <pin num="11" name="RA2" type="bidirectional"/>
+        <pin num="12" name="RA1/ICSPCLK" type="bidirectional"/>
+        <pin num="13" name="RA0/ICSPDAT" type="bidirectional"/>
+        <pin num="14" name="VSS" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Amplifier_Operational">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Amplifier_Operational.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="user">
+      <uri>C:\Users\Admiral Instruments\source\repos\LightsAndSound\NoteDector_PCBA\NoteDetector/user.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+BATT">
+      <node ref="BT1" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="MK1" pin="2" pinfunction="+" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="V+" pintype="power_in"/>
+      <node ref="U2" pin="1" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="2" name="/AFE_En">
+      <node ref="R22" pin="2" pintype="passive"/>
+      <node ref="U2" pin="11" pinfunction="RA2" pintype="bidirectional"/>
+    </net>
+    <net code="3" name="/Audio_In">
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="RA5" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="/Audio_raw">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="MK1" pin="1" pinfunction="-" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="5" name="/ICSP_CLK">
+      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U2" pin="12" pinfunction="RA1/ICSPCLK" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="/ICSP_DAT">
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U2" pin="13" pinfunction="RA0/ICSPDAT" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="/Midscale1">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="8" name="/Midscale2">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="9" name="/PWM1">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U2" pin="10" pinfunction="RC0" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="/PWM2">
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="U2" pin="9" pinfunction="RC1" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="/PWM3">
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="U2" pin="8" pinfunction="RC2" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="/gnd_switch">
+      <node ref="Q1" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+    </net>
+    <net code="13" name="/~{MCLR}">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="~{MCLR}/VPP/RA3" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="GND">
+      <node ref="BT1" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q3" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q4" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="U2" pin="14" pinfunction="VSS" pintype="power_in"/>
+    </net>
+    <net code="15" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(C4-Pad1)">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(C5-Pad2)">
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(C6-Pad2)">
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="V-" pintype="power_in"/>
+    </net>
+    <net code="19" name="Net-(C7-Pad1)">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(C7-Pad2)">
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="21" name="Net-(C8-Pad1)">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pintype="output"/>
+    </net>
+    <net code="22" name="Net-(C13-Pad1)">
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="D1" pin="4" pinfunction="RK" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(C14-Pad1)">
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="D1" pin="3" pinfunction="GK" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(C15-Pad1)">
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="BK" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+    </net>
+    <net code="25" name="Net-(Q1-Pad1)">
+      <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+    </net>
+    <net code="26" name="Net-(Q2-Pad1)">
+      <node ref="Q2" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="27" name="Net-(Q2-Pad3)">
+      <node ref="Q2" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+    </net>
+    <net code="28" name="Net-(Q3-Pad1)">
+      <node ref="Q3" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+    </net>
+    <net code="29" name="Net-(Q3-Pad3)">
+      <node ref="Q3" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+    </net>
+    <net code="30" name="Net-(Q4-Pad1)">
+      <node ref="Q4" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+    </net>
+    <net code="31" name="Net-(Q4-Pad3)">
+      <node ref="Q4" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+    </net>
+    <net code="32" name="unconnected-(U2-Pad3)">
+      <node ref="U2" pin="3" pinfunction="RA4" pintype="bidirectional"/>
+    </net>
+    <net code="33" name="unconnected-(U2-Pad5)">
+      <node ref="U2" pin="5" pinfunction="RC5" pintype="bidirectional"/>
+    </net>
+    <net code="34" name="unconnected-(U2-Pad6)">
+      <node ref="U2" pin="6" pinfunction="RC4" pintype="bidirectional"/>
+    </net>
+    <net code="35" name="unconnected-(U2-Pad7)">
+      <node ref="U2" pin="7" pinfunction="RC3" pintype="bidirectional"/>
+    </net>
+  </nets>
+</export>
